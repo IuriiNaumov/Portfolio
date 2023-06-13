@@ -1,0 +1,15 @@
+.wrapper {
+    margin: 0 auto;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.subtitle {
+    color: #323232;
+}

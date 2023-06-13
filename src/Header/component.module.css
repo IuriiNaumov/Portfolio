@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 30px;
+    align-items: center;
+    font-size: 18px;
+}
+
+.menu{
+    display: flex;
+    gap: 6px;
+}
+
+.menu > span{
+    padding: 12px;
+}
+
+.menu > span:hover{
+    background-color: #ededed;
+    border-radius: 8px;
+    cursor: pointer;
+}
