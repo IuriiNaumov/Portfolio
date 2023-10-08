@@ -2,7 +2,11 @@
     display: flex;
     gap: 14px;
 }
-
-.wrapper > a {
+.linkedIn:hover {
     cursor: pointer;
+    fill: #0077b5;
+}
+.github:hover{
+    cursor: pointer;
+    fill: #6e5494;
 }
