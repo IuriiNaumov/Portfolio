@@ -1,5 +1,7 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  gap: 300px;
+.wrapper {
+    display: flex;
+    margin-top: 350px;
+    flex-direction: column;
+    gap: 300px;
+    align-items: center;
 }

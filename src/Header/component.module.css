@@ -17,12 +17,11 @@
 }
 
 .menu > span {
-    padding: 10px 20px;
+    padding: 12px 20px;
 }
 
 .menu > span:hover {
-    background-color: #323232;
-    color: white;
+    background-color: #e6e6e6;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -30,8 +29,4 @@
     display: flex;
     gap: 10px;
     align-items: center;
-}
-
-.video {
-    margin-top: -6px;
 }

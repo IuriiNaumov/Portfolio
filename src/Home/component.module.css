@@ -1,5 +1,4 @@
 .wrapper {
-    margin: 0 auto;
     display: flex;
     gap: 30px;
 }
@@ -9,7 +8,7 @@
 }
 
 .subtitle {
-    color: #323232;
+    color: var(--background-color);
     font-size: 24px;
     line-height: 32px;
 }
@@ -25,4 +24,25 @@
     gap: 32px;
     flex-direction: column;
     width: 540px;
+}
+
+.techStack{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    font-size: 24px;
+    margin-top: 80px;
+}
+
+.links {
+    display: flex;
+    gap: 14px;
+}
+.linkedIn:hover {
+    cursor: pointer;
+    fill: #0077b5;
+}
+.github:hover{
+    cursor: pointer;
+    fill: #6e5494;
 }

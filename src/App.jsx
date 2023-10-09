@@ -1,15 +1,19 @@
 import React from "react";
 import Header from "./Header";
-import SelfInfo from "./SelfInfo";
+import Home from "./Home";
+import AboutMe from "./AboutMe";
+import Projects from "./Projects";
 import styles from "./App.module.css";
-import About from "./About";
 
 function App() {
     return (
         <div className={styles.App}>
             <Header />
-            <SelfInfo />
-            <About />
+            <div className={styles.wrapper}>
+                <Home />
+                <AboutMe />
+                <Projects />
+            </div>
         </div>
     );
 }
