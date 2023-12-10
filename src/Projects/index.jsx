@@ -8,11 +8,11 @@ import clientImgTwo from "../img/clientTwo.jpg";
 import Slider from "../Slider";
 
 const builderImgList = [acceptanceImgOne, acceptanceImgTwo, acceptanceImgThree];
-const customerImgList = [clientImgOne, clientImgTwo];
+const clientImgList = [clientImgOne, clientImgTwo];
 
 function Projects() {
     return (
-        <section className={styles.wrapper}>
+        <section className={styles.wrapper} id="projects">
             <h1 className={styles.projectsTitle}>PROJECTS</h1>
             <div className={styles.acceptanceBlock}>
                 <div className={styles.text}>
@@ -27,7 +27,7 @@ function Projects() {
                 <Slider imgList={builderImgList} />
             </div>
             <div className={styles.acceptanceBlock}>
-                <Slider imgList={customerImgList} />
+                <Slider imgList={clientImgList} />
                 <div className={styles.text}>
                     <span className={styles.title}>Кабинет Дольщика</span>
                     <br />

@@ -9,7 +9,7 @@ import selfIcon from "../img/self.jpg";
 
 function Home() {
   return (
-    <section className={styles.wrapper}>
+    <section className={styles.wrapper} id="home">
       <div className={styles.infoBlock}>
         <span className={styles.title}>
           Front-End React Developer <span>&#128640;</span>

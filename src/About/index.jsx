@@ -4,7 +4,7 @@ import vector from "../img/vector.svg";
 
 function About() {
     return (
-        <section className={styles.wrapper}>
+        <section className={styles.wrapper} id="about">
             <img src={vector} className={styles.vector}></img>
             <span className={styles.title}>ABOUT ME</span>
             <div className={styles.blockWrapper}>

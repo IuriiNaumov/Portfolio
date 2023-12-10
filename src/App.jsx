@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <React.Fragment className={styles.App}>
+    <React.Fragment className={styles.App} >
       <Header />
       <main className={styles.wrapper}>
         <Home />

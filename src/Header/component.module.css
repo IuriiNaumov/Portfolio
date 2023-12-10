@@ -5,6 +5,12 @@
     align-items: center;
     font-size: 24px;
     font-weight: 700;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+    background-color: var(--white-color);
 }
 
 .title {
@@ -21,7 +27,7 @@
 }
 
 .menu>span:hover {
-    background-color: var(--gray-4);
+    background-color: var(--gray-1);
     border-radius: 8px;
     cursor: pointer;
 }
