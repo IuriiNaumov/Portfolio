@@ -1,92 +1,37 @@
-.img {
-    width: 1000px;
-    border-radius: 16px;
-    border: none;
-    transition-duration: 3s;
-}
-
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    margin-top: 300px;
+  margin-top: 300px;
 }
 
 .acceptanceBlock {
-    display: flex;
-    gap: 30px;
-    align-items: start;
-    margin-bottom: 200px;
+  display: flex;
+  gap: 30px;
+  align-items: start;
+  margin-bottom: 200px;
 }
 
 .text {
-    width: 500px;
-    margin: 0;
-    font-size: 20px;
-    line-height: 24px;
-    padding: 20px;
-    background-color: #f6f6f6;
-    border-radius: 16px;
+  width: 500px;
+  margin: 0;
+  font-size: 20px;
+  line-height: 24px;
+  padding: 20px;
+  background-color: #f6f6f6;
+  border-radius: 16px;
 }
 
 .title {
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.button {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    border: none;
-    background-color: white;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    margin-left: -38px;
-    cursor: pointer;
-}
-
-.leftButton {
-    display: block;
-    position: absolute;
-    left: -20px;
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    border: none;
-    background-color: white;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-}
-
-.none {
-    display: none;
-}
-
-.button > :hover {
-    padding: 10px;
-    color: rgb(255, 0, 0);
-    margin-left: 8px;
-    transition-duration: 0.3s;
-}
-
-.leftButton > :hover {
-    padding: 10px;
-    color: rgb(255, 0, 0);
-    margin-left: -18px;
-    transition-duration: 0.3s;
+  font-size: 32px;
+  font-weight: 700;
 }
 
 .arrow {
-    width: 40px;
-    height: 40px;
-}
-
-.imgCarusel {
-    display: flex;
-    align-items: center;
-    position: relative;
+  width: 40px;
+  height: 40px;
 }
 
 .projectsTitle {
-    color: #3587ed;
-    font-size: 48px;
+  color: #3587ed;
+  font-size: 48px;
+  margin-bottom: 40px;
+  font-weight: 700;
 }

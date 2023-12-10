@@ -1,0 +1,44 @@
+.carousel {
+  width: 1000px;
+}
+
+.rightButton > :hover {
+  padding: 10px;
+  color: rgb(255, 0, 0);
+  margin-left: 8px;
+  transition-duration: 0.3s;
+}
+
+.leftButton > :hover {
+  padding: 10px;
+  color: rgb(255, 0, 0);
+  margin-left: -18px;
+  transition-duration: 0.3s;
+}
+
+.button {
+  display: block;
+  position: absolute;
+  right: -20px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: none;
+  background-color: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.rightButton {
+  right: -20px;
+}
+.leftButton {
+  left: -20px;
+}
+.img {
+  width: 1000px;
+  height: 570px;
+  box-sizing: border-box;
+  border-radius: 16px;
+  border: none;
+}

@@ -21,7 +21,7 @@
 }
 
 .menu > span:hover {
-    background-color: #e6e6e6;
+    background-color: #ececec;
     border-radius: 8px;
     cursor: pointer;
 }

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./component.module.css";
 import vector from "../img/vector.svg";
 
-function AboutMe() {
+function About() {
     return (
         <div className={styles.wrapper}>
             <img src={vector} className={styles.vector}></img>
@@ -20,4 +20,4 @@ function AboutMe() {
         </div>
     );
 }
-export default AboutMe;
+export default About;
