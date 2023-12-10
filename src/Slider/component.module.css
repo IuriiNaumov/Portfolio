@@ -2,16 +2,16 @@
   width: 1000px;
 }
 
-.rightButton > :hover {
+.rightButton> :hover {
   padding: 10px;
-  color: rgb(255, 0, 0);
   margin-left: 8px;
+  color: var(--red-2);
   transition-duration: 0.3s;
 }
 
-.leftButton > :hover {
+.leftButton> :hover {
   padding: 10px;
-  color: rgb(255, 0, 0);
+  color: var(--red-2);
   margin-left: -18px;
   transition-duration: 0.3s;
 }
@@ -24,7 +24,7 @@
   height: 64px;
   border-radius: 50%;
   border: none;
-  background-color: white;
+  background-color: var(--white-color);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
@@ -32,9 +32,11 @@
 .rightButton {
   right: -20px;
 }
+
 .leftButton {
   left: -20px;
 }
+
 .img {
   width: 1000px;
   height: 570px;

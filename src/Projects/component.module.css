@@ -15,7 +15,7 @@
   font-size: 20px;
   line-height: 24px;
   padding: 20px;
-  background-color: #f6f6f6;
+  background-color: var(--gray-5);
   border-radius: 16px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .projectsTitle {
-  color: #3587ed;
+  color: var(--blue-1);
   font-size: 48px;
   margin-bottom: 40px;
   font-weight: 700;

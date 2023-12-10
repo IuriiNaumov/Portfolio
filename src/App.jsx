@@ -8,14 +8,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className={styles.App}>
+    <React.Fragment className={styles.App}>
       <Header />
-      <div className={styles.wrapper}>
+      <main className={styles.wrapper}>
         <Home />
         <About />
         <Projects />
-      </div>
-    </div>
+      </main>
+    </React.Fragment>
   );
 }
 

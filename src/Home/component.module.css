@@ -2,13 +2,14 @@
     display: flex;
     gap: 30px;
 }
+
 .title {
     font-size: 54px;
     font-weight: 700;
 }
 
 .subtitle {
-    color: var(--background-color);
+    color: var(--gray-9);
     font-size: 24px;
     line-height: 32px;
 }
@@ -26,7 +27,7 @@
     width: 540px;
 }
 
-.techStack{
+.techStack {
     display: flex;
     gap: 24px;
     align-items: center;
@@ -38,11 +39,13 @@
     display: flex;
     gap: 14px;
 }
+
 .linkedIn:hover {
     cursor: pointer;
     fill: #0077b5;
 }
-.github:hover{
+
+.github:hover {
     cursor: pointer;
     fill: #6e5494;
 }

@@ -4,18 +4,18 @@ import { PeopleCircle1Icon32Regular } from "@skbkontur/icons";
 
 function Header() {
     return (
-        <div className={styles.header}>
-            <div className={styles.logo}>
+        <header className={styles.header}>
+            <span className={styles.logo}>
                 <strong className={styles.title}>Iurii.dev</strong>
                 <PeopleCircle1Icon32Regular />
-            </div>
-            <div className={styles.menu}>
+            </span>
+            <span className={styles.menu}>
                 <span>Home</span>
                 <span>About</span>
                 <span>Projects</span>
                 <span>Contact</span>
-            </div>
-        </div>
+            </span>
+        </header>
     );
 }
 export default Header;

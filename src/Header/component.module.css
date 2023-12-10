@@ -16,15 +16,16 @@
     gap: 6px;
 }
 
-.menu > span {
+.menu>span {
     padding: 12px 20px;
 }
 
-.menu > span:hover {
-    background-color: #ececec;
+.menu>span:hover {
+    background-color: var(--gray-4);
     border-radius: 8px;
     cursor: pointer;
 }
+
 .logo {
     display: flex;
     gap: 10px;

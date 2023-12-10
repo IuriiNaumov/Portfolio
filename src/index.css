@@ -78,6 +78,70 @@
         url(https://s.kontur.ru/common-v2/fonts/LabGrotesque/LabGrotesque-BoldItalic.woff) format("woff");
 }
 
+:root {
+    --white-color: #ffffff;
+    --text-color: #222222;
+
+    --gray-1: #f0f0f0;
+    --gray-2: #858585;
+    --gray-3: #e5e5e5;
+    --gray-4: #ebebeb;
+    --gray-5: #f6f6f6;
+    --gray-6: #d6d6d6;
+    --gray-7: rgba(0, 0, 0, 0.48);
+    --gray-8: #e6e6e6;
+    --gray-9: #3d3d3d;
+    --gray-10: #757575;
+    --gray-11: rgba(0, 0, 0, 0.06);
+    --gray-12: rgba(0, 0, 0, 0.16);
+    --gray-13: rgba(255, 255, 255, 0.48);
+
+    --yellow-1: #ffeec2;
+    --yellow-2: #de7b08;
+    --yellow-3: #fde1a1;
+    --yellow-4: #ef8b17;
+
+    --red-1: #ffdfe5;
+    --red-2: #cb3d35;
+    --red-3: #ffcbd4;
+    --red-4: #ffc8bf;
+
+    --blue-1: #1874cf;
+    --blue-2: #aeddff;
+
+    --purple-1: #b750d1;
+
+    --green-1: #a7eeb3;
+    --green-2: #d7f8ae;
+
+    --font-weight-bold: 700;
+    --font-weight-regular: 400;
+
+    --font-size-large-6: 48px;
+    --line-height-large-6: 56px;
+
+    --font-size-large-5: 40px;
+    --line-height-large-5: 48px;
+
+    --font-size-large-4: 32px;
+    --line-height-large-4: 40px;
+
+    --font-size-large-3: 24px;
+    --line-height-large-3: 32px;
+
+    --font-size-large-2: 20px;
+    --line-height-large-2: 28px;
+
+    --font-size-large-1: 18px;
+    --line-height-large-1: 24px;
+
+    --font-size-regular: 16px;
+    --line-height-regular: 22px;
+
+    --font-size-small: 14px;
+    --line-height-small: 20px;
+}
+
 body {
     margin: 0;
     font-family: "Lab Grotesque", "Segoe UI", "Helvetica Neue", Arial, Tahoma, sans-serif;
@@ -87,8 +151,4 @@ body {
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
-}
-
-:root {
-    --background-color: #333;
 }

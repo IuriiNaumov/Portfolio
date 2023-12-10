@@ -8,14 +8,14 @@ import reactIcon from "../img/react.svg";
 
 function TechStack() {
     return (
-        <div className={styles.wrapper}>
+        <section className={styles.wrapper}>
             <strong>Tech Stack |</strong>
             <img src={htmlIcon}></img>
             <img src={cssIcon}></img>
             <img src={jsIcon}></img>
             <img src={tsIcon}></img>
             <img src={reactIcon}></img>
-        </div>
+        </section>
     );
 }
 export default TechStack;
